@@ -3,7 +3,9 @@ import { GoArrowUpRight } from "react-icons/go";
 
 function About() {
   return (
-    <div className="w-full  sm:pl-16 px-8   py-20 bg-[#CDEA68] rounded-tl-3xl text-[#212121] rounded-tr-3xl">
+    <div className="bg-[#004d43]">
+
+    <div className="w-full    sm:pl-16 px-8   py-20 bg-[#CDEA68] rounded-tl-3xl text-[#212121] rounded-tr-3xl">
       <div className="sm:text-[3vw]    leading-[6.5vw] sm:leading-[4vw] font-normal text-[6vw] font-['Neue_Montreal']  ">
         Proficient in Figma, UI design, web development, and web design.
         Passionate about creating visually appealing and user-friendly digital
@@ -26,6 +28,7 @@ function About() {
         <img src={`https://images.pexels.com/photos/3366282/pexels-photo-3366282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`} className=" h-full w-full object-cover"  alt="" />
         </div>
       </div>
+    </div>
     </div>
   );
 }
