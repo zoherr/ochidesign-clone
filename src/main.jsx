@@ -9,13 +9,21 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Index from "./Index.jsx";
+import AboutPage from "./pages/AboutPage.jsx";
+import ContactPage from "./pages/ContactPage.jsx";
+import SkillsPage from "./pages/SkillsPage.jsx";
+import WorkPage from "./pages/WorkPage.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Index />}>
       <Route path="" element={<App />} />
-      {/* <Route path="about" element={<AboutUs />} /> */}
-      {/* <Route path='user/:userid' element={<User />} /> */}
+      <Route path="about" element={<AboutPage />} />
+      <Route path='contact' element={<ContactPage />} />
+      <Route path='skills' element={<SkillsPage />} />
+      <Route path='work' element={<WorkPage />} />
+      {/* <Route path='education' element={<Educat />} /> */}
+
     </Route>
   )
 );
