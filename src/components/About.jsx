@@ -3,7 +3,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 function About() {
   return (
-    <div className="bg-[#004d43]">
+    <div className="bg-[#004d43]" id="about">
 
     <div className="w-full    sm:pl-16 px-8   py-20 bg-[#CDEA68] rounded-tl-3xl text-[#212121] rounded-tr-3xl">
       <div className="sm:text-[3vw]    leading-[6.5vw] sm:leading-[4vw] font-normal text-[6vw] font-['Neue_Montreal']  ">
@@ -17,7 +17,7 @@ function About() {
       </div>
       <div className="border-t-2  gap-5 border-zinc-900 mt-32 pt-20 sm:flex justify-between">
         <div className="sm:w-1/2  ">
-          <h1 className="sm:text-[3vw] text-[6vw] ">Read My Blogs</h1>
+          <h1 className="sm:text-[3vw] text-[#212121] text-[6vw] font-['Neue_Montreal'] ">Read My Blogs</h1>
           <button className="px-9 gap-5 flex items-center py-5 bg-zinc-900 hover:bg-black uppercase mt-4 text-white rounded-full">
             Read now
             <GoArrowUpRight className="text-[#fff] font-semibold text-2xl" />
