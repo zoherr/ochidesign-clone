@@ -26,40 +26,66 @@ function WorkMarquee() {
               AppWrite - Figma - Ui/Ux -{" "}
             </motion.h1>
           </div>
-          <div className="w-full pb-16 h-[100vh] flex justify-center items-center">
-            {" "}
-            <div className="h-[75vh] px-8 py-5 w-[75%] bg-[#f1f1f1] rounded-xl">
-              <div className="flex justify-between">
-                <h1 className="font-bold text-2xl text-[#212121]  font-['Neue_Montreal']">
-                  Zoher R.
-                </h1>
-                <div className="text-center">
-                  <div className="  bg-slate-600 w-[18vw] overflow-hidden rounded-2xl h-[45vh]">
-                    <img
-                      src="https://i.ibb.co/Rp8nytV/1691760070554.jpg"
-                      className=" w-full h-full object-cover"
-                      alt=""
-                    />{" "}
-                  </div>
-                  <h1 className="font-bold text-xl mt-3 text-[#212121]  font-['Neue_Montreal']">
-                    Co-Founder & COO
-                  </h1>
+          <div className="w-full font-['Neue_Montreal'] text-[#f1f1f1] px-8 flex sm:px-12 pb-16 h-[80vh] justify-between   mt-12">
+            <div className="w-1/3 text-[#f1f1f1] font-['Neue_Montreal']  sm:text-2xl">
+              Letest Blogs:
+            </div>
+            <div className="w-full flex gap-9">
+              <div className="w-1/2">
+                {" "}
+                <motion.div
+                  className="bg-slate-100 h-[19rem] sm:h-[20rem] rounded-xl"
+                  whileHover={{ scale: 0.95 }}
+                  whileTap={{ scale: 0.95 }}
+                ></motion.div>
+                   <div className="mt-5  flex flex-wrap gap-2">
+              {["REACT JS", "WebSocket"].map((item, index) => (
+                <p
+                  className="px-4 sm:text-[1rem]  border-2 border-[#f1f1f1] py-1 rounded-full"
+                  key={index}
+                >
+                  {item}
+                </p>
+              ))}
+            </div>
+              </div>
+              <div className="w-1/2">
+                {" "}
+                <motion.div
+                  className="bg-slate-100 h-[19rem] sm:h-[20rem] rounded-xl"
+                  whileHover={{ scale: 0.95 }}
+                  whileTap={{ scale: 0.95 }}
+                ></motion.div>
+                   <div className="mt-5 flex flex-wrap gap-2">
+              {["REACT JS", "WebSocket"].map((item, index) => (
+                <p
+                  className="px-4 sm:text-[1rem]  border-2 border-[#f1f1f1] py-1 rounded-full"
+                  key={index}
+                >
+                  {item}
+                </p>
+              ))}
+            </div>
+              </div>
+              <div className="w-1/2">
+                {" "}
+                <motion.div
+                  className="bg-slate-100 h-[19rem] sm:h-[20rem] rounded-xl"
+                  whileHover={{ scale: 0.95 }}
+                  whileTap={{ scale: 0.95 }}
+                ></motion.div>
+                <div className="mt-5 flex flex-wrap gap-2">
+                  {["REACT JS", "WebSocket"].map((item, index) => (
+                    <p
+                      className="px-4 sm:text-[1rem]  border-2 border-[#f1f1f1] py-1 rounded-full"
+                      key={index}
+                    >
+                      {item}
+                    </p>
+                  ))}
                 </div>
               </div>
-              <div className="flex justify-between FoundersGrotesk-Semibold">
-                <div className=" mt-2 uppercase text-[8vw] FoundersGrotesk-Semibold  text-[#212121]">
-                  Zoher Rangwala
-                </div>
-                {/* <div className="   w-[5vw] overflow-hidden mt-10  rounded-2xl h-[5vw]">
-                  <img
-                    src="/src/assets/smb.png"
-                    className=" w-full h-full object-cover"
-                    alt=""
-                  />{" "}
-
-                </div> */}
-              </div>
-            </div>{" "}
+            </div>
           </div>
         </div>
       </div>
