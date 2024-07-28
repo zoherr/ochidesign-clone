@@ -3,9 +3,9 @@ import { motion, useTransform, useViewportScroll } from "framer-motion";
 
 function Skills() {
   return (
-    <>
+    <div data-scroll className="">
       <div
-        className="pt-20 bg-[#F1F1F1] border-b-2 border-zinc-300"
+        className="pt-20  bg-[#F1F1F1] border-b-2 border-zinc-300"
         id="skills"
       ></div>
       <div className="pt-20  pb-32 w-full  sm:flex px-8 sm:px-16  font-['Neue_Montreal'] bg-[#F1F1F1]">
@@ -48,7 +48,8 @@ function Skills() {
           ))}
         </div>
       </div>
-    </>
+      <div className="w-full bg-[#CDEA68] h-56"></div>
+    </div>
   );
 }
 

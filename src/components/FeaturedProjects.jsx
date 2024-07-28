@@ -4,6 +4,7 @@ import { motion, useTransform, useViewportScroll } from "framer-motion";
 function FeaturedProjects() {
   return (
     <div
+      data-scroll  
       className="pt-32 pb-8 w-full font-['Neue_Montreal'] bg-[#F1F1F1] "
       id="work"
     >
@@ -61,7 +62,6 @@ function FeaturedProjects() {
           <div className="bg-white h-3 w-3 rounded-full"></div>
         </button>
       </div>
-      
     </div>
   );
 }

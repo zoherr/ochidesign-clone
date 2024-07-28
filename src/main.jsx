@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
+
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -19,11 +20,10 @@ const router = createBrowserRouter(
     <Route path="/" element={<Index />}>
       <Route path="" element={<App />} />
       <Route path="about" element={<AboutPage />} />
-      <Route path='contact' element={<ContactPage />} />
-      <Route path='skills' element={<SkillsPage />} />
-      <Route path='work' element={<WorkPage />} />
+      <Route path="contact" element={<ContactPage />} />
+      <Route path="skills" element={<SkillsPage />} />
+      <Route path="work" element={<WorkPage />} />
       {/* <Route path='education' element={<Educat />} /> */}
-
     </Route>
   )
 );
