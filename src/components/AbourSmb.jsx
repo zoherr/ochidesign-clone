@@ -3,12 +3,12 @@ import { GoArrowUpRight } from 'react-icons/go'
 
 function AbourSmb() {
   return (
-    <div  className="pt-32 pb-8 w-full font-['Neue_Montreal'] bg-[#F1F1F1] ">
-        <h1 className="sm:text-[3vw]  px-8 sm:px-16  pb-10 leading-[6.5vw] sm:leading-[4vw] font-normal text-[6vw] hover:under font-['Neue_Montreal'] ">
+    <div  className="pt-32 pb-8 w-full NeueMontreal-Regular bg-[#F1F1F1] ">
+        <h1 className="sm:text-[3vw]  px-8 sm:px-16  pb-10 leading-[6.5vw] sm:leading-[4vw] font-normal text-[6vw] hover:under NeueMontreal-Regular ">
        Co-Founder Of SMB Innovation
       </h1>
       <div className="border-t-2 capitalize border-zinc-300  pt-7 sm:flex justify-between"></div>
-      <div className="sm:flex pb-12  px-8 font-['Neue_Montreal'] bg-[#f1f1f1] sm:px-16 text-[#212121]">
+      <div className="sm:flex pb-12  px-8 NeueMontreal-Regular bg-[#f1f1f1] sm:px-16 text-[#212121]">
         <div className="sm:w-1/2">
           <p className=" uppercase sm:text-lg">About SMB Innovation:</p>
         </div>

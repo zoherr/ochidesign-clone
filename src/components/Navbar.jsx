@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className="fixed z-[999] blur-effect  flex sm:px-16  w-full  px-8 py-5 justify-between ">
       <NavLink to="/">
-        <h1 className="font-bold text-2xl   font-['Neue_Montreal']">
+        <h1 className="font-bold text-2xl   NeueMontreal-Regular">
           Zoher R.
         </h1>
       </NavLink>
@@ -15,7 +15,7 @@ function Navbar() {
             key={key}
             to={key === 3 ? `#${item.toLowerCase()}` : `/${item.toLowerCase()}`}
           >
-            <a className="font-regular text-lg	 font-['Neue_Montreal']">
+            <a className="font-regular text-lg	 NeueMontreal-Regular">
               {item}
             </a>
           </NavLink>
@@ -23,7 +23,7 @@ function Navbar() {
         <NavLink to="/contact">
           <a
             href=""
-            className="font-regular text-lg 	ml-[9rem] font-['Neue_Montreal']"
+            className="font-regular text-lg 	ml-[9rem] NeueMontreal-Regular"
           >
             Contact us{" "}
           </a>

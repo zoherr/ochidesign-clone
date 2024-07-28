@@ -26,8 +26,8 @@ function WorkMarquee() {
               AppWrite - Figma - Ui/Ux -{" "}
             </motion.h1>
           </div>
-          <div className="w-full font-['Neue_Montreal'] text-[#f1f1f1] px-8 flex sm:px-12 pb-16 h-[80vh] justify-between   mt-12">
-            <div className="w-1/3 text-[#f1f1f1] font-['Neue_Montreal']  sm:text-2xl">
+          <div className="w-full NeueMontreal-Regular text-[#f1f1f1] px-8 flex sm:px-12 pb-16 h-[80vh] justify-between   mt-12">
+            <div className="w-1/3 text-[#f1f1f1] NeueMontreal-Regular  sm:text-2xl">
               Letest Blogs:
             </div>
             <div className="w-full flex gap-9">

@@ -30,7 +30,7 @@ function AboutMarquee() {
             {" "}
             <div className="h-[75vh] px-8 py-5 w-[75%] bg-[#f1f1f1] rounded-xl">
               <div className="flex justify-between">
-                <h1 className="font-bold text-2xl text-[#212121]  font-['Neue_Montreal']">
+                <h1 className="font-bold text-2xl text-[#212121]  NeueMontreal-Regular">
                   Zoher R.
                 </h1>
                 <div className="text-center">
@@ -42,7 +42,7 @@ function AboutMarquee() {
                   />{" "}
 
                 </div>
-                <h1 className="font-bold text-xl mt-3 text-[#212121]  font-['Neue_Montreal']">
+                <h1 className="font-bold text-xl mt-3 text-[#212121]  NeueMontreal-Regular">
                   Co-Founder & COO
                 </h1>
                 </div>

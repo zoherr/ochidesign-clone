@@ -5,10 +5,10 @@ function FeaturedProjects() {
   return (
     <div
       data-scroll  
-      className="pt-32 pb-8 w-full font-['Neue_Montreal'] bg-[#F1F1F1] "
+      className="pt-32 pb-8 w-full NeueMontreal-Regular bg-[#F1F1F1] "
       id="work"
     >
-      <h1 className="sm:text-[3vw]  px-8 sm:px-16   leading-[6.5vw] sm:leading-[4vw] font-normal text-[6vw] hover:under font-['Neue_Montreal'] ">
+      <h1 className="sm:text-[3vw]  px-8 sm:px-16   leading-[6.5vw] sm:leading-[4vw] font-normal text-[6vw] hover:under NeueMontreal-Regular ">
         Featured projects
       </h1>
       <div className="border-t-2 mt-9 capitalize border-zinc-300 flex flex-wrap">

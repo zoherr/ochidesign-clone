@@ -7,8 +7,8 @@ function WorkInfoPage() {
     <div>
       <div className="bg-[#f1f1f1]"></div>
       <div className="border-t-2 z-10  capitalize border-zinc-300      sm:flex justify-between"></div>
-      <div className=" pb-24 pt-[9rem] px-8 font-['Neue_Montreal'] bg-[#f1f1f1] sm:px-12 text-[#212121]">
-        <h1 className="sm:text-[4vw]  px-8 sm:px-0 leading-[6.5vw] sm:leading-[4vw] font-normal text-[6vw] hover:under font-['Neue_Montreal'] ">
+      <div className=" pb-24 pt-[9rem] px-8 NeueMontreal-Regular bg-[#f1f1f1] sm:px-12 text-[#212121]">
+        <h1 className="sm:text-[4vw]  px-8 sm:px-0 leading-[6.5vw] sm:leading-[4vw] font-normal text-[6vw] hover:under NeueMontreal-Regular ">
           Purpose driven,{" "}
           <span className="border-b-2 border-[#212121]">
             strategy-led projects

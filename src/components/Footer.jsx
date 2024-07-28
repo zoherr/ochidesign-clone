@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div data-scroll data-scroll-speed=".10">
-      <div className="sm:flex pb-12 pt-28 px-8 font-['Neue_Montreal'] bg-[#f1f1f1] sm:px-16 text-[#212121]">
+      <div className="sm:flex pb-12 pt-28 px-8 NeueMontreal-Regular bg-[#f1f1f1] sm:px-16 text-[#212121]">
         <div className="sm:w-1/2">
           <p className="FoundersGrotesk-Semibold uppercase sm:text-[10rem] leading-[8.5vw]">
             FULL STACK DEV
@@ -44,14 +44,14 @@ function Footer() {
         </div>
       </div>
       <div className="flex justify-between bg-[#f1f1f1] pb-10 sm:px-16 ">
-        <h1 className="font-bold text-2xl   font-['Neue_Montreal']">
+        <h1 className="font-bold text-2xl   NeueMontreal-Regular">
           Zoher R.
         </h1>
         <div className="gap-2 sm:pl-[16.8rem] text-[#212121] hidden sm:flex items-center ">
           {["© Zoher R", "2024."].map((item, key) => (
             <a
               href={`#${item.toLowerCase()}`}
-              className="font-regular text-lg	 font-['Neue_Montreal']"
+              className="font-regular text-lg	 NeueMontreal-Regular"
               key={key}
             >
               {item}
@@ -60,7 +60,7 @@ function Footer() {
         </div>
         <a
           href=""
-          className="font-regular text-lg 	ml-[9rem] font-['Neue_Montreal']"
+          className="font-regular text-lg 	ml-[9rem] NeueMontreal-Regular"
         >
           Contact us{" "}
         </a>

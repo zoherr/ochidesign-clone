@@ -53,7 +53,7 @@ function LandingPage() {
             return (
               <p
                 key={index}
-                className="text-[#212121] px-8 sm:px-16 font-['Neue_Montreal'] sm:my-0 my-8 text-md font-normal"
+                className="text-[#212121] px-8 sm:px-16 NeueMontreal-Regular sm:my-0 my-8 text-md font-normal"
               >
                 {item}{" "}
               </p>

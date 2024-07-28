@@ -8,8 +8,8 @@ function Skills() {
         className="pt-20  bg-[#F1F1F1] border-b-2 border-zinc-300"
         id="skills"
       ></div>
-      <div className="pt-20  pb-32 w-full  sm:flex px-8 sm:px-16  font-['Neue_Montreal'] bg-[#F1F1F1]">
-        <h1 className="sm:text-[3vw] mb-8 sm:w-1/2   leading-[6.5vw] sm:leading-[4vw] font-normal text-[6vw] font-['Neue_Montreal'] ">
+      <div className="pt-20  pb-32 w-full  sm:flex px-8 sm:px-16  NeueMontreal-Regular bg-[#F1F1F1]">
+        <h1 className="sm:text-[3vw] mb-8 sm:w-1/2   leading-[6.5vw] sm:leading-[4vw] font-normal text-[6vw] NeueMontreal-Regular ">
           Skills
         </h1>
         <div className="flex flex-wrap sm:pl-8 gap-5 mt-2 mb-10">

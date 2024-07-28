@@ -5,7 +5,7 @@ function AboutInfoPage() {
   return (
     <div>
       <div className="border-t-2 z-10 capitalize border-zinc-300  pt-7 sm:flex justify-between"></div>
-      <div className="sm:flex pb-12  px-8 font-['Neue_Montreal'] bg-[#f1f1f1] sm:px-16 text-[#212121]">
+      <div className="sm:flex pb-12  px-8 NeueMontreal-Regular bg-[#f1f1f1] sm:px-16 text-[#212121]">
         <div className="sm:w-1/2">
           <p className=" uppercase sm:text-lg">About Us:</p>
         </div>
