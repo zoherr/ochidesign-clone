@@ -4,7 +4,11 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <div className="fixed z-[999] blur-effect  flex sm:px-16  w-full  px-8 py-5 justify-between ">
-      <h1 className="font-bold text-2xl   font-['Neue_Montreal']">Zoher R.</h1>
+      <NavLink to="/">
+        <h1 className="font-bold text-2xl   font-['Neue_Montreal']">
+          Zoher R.
+        </h1>
+      </NavLink>
       <div className="gap-10 text-[#212121] hidden sm:flex items-center justify-between">
         {["About", "Work", "Skills", "Education"].map((item, key) => (
           <NavLink
