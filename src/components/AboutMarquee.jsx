@@ -36,7 +36,7 @@ function AboutMarquee() {
                 <div className="text-center">
                 <div className="  bg-slate-600 w-[18vw] overflow-hidden rounded-2xl h-[45vh]">
                   <img
-                    src="../assets/zoher.jpg"
+                    src="https://i.ibb.co/Rp8nytV/1691760070554.jpg"
                     className=" w-full h-full object-cover"
                     alt=""
                   />{" "}
