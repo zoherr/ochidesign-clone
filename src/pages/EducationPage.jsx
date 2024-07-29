@@ -15,10 +15,12 @@ import AboutInfoPage from "../components/AboutInfoPage";
 import Eyes from "../components/Eyes";
 import AbourSmb from "../components/AbourSmb";
 import AboutMarquee from "../components/AboutMarquee";
-import ContactLendingPage from "../components/ContactLendingPage";
-import ContactInfoPage from "../components/ContactInfoPage";
+import EducationLandingPage from "../components/EducationLandingPage";
+import EducationInfoPage from "../components/EducationInfoPage";
+import EducationFormRedirect from "../components/EducationFormRedirect";
+import EducationMarquee from "../components/EducationMarquee";
 
-function ContactPage() {
+function EducationPage() {
   const [loader, setLoader] = useState(true);
   const scrollRef = useRef(null);
 
@@ -51,22 +53,20 @@ function ContactPage() {
         <div data-scroll-container ref={scrollRef}>
           <Navbar />
           <div data-scroll-section>
-            <ContactLendingPage />
+            <EducationLandingPage />
           </div>
           <div data-scroll-section>
-            <ContactInfoPage />
+            <EducationInfoPage />
           </div>
           <div data-scroll-section>
             <Eyes />
           </div>
+      
           <div data-scroll-section>
-            <AbourSmb />
+            <EducationMarquee />
           </div>
           <div data-scroll-section>
-            <AboutMarquee />
-          </div>
-          <div data-scroll-section>
-            <FormRedirect />
+            <EducationFormRedirect />
           </div>
           <div data-scroll-section>
             <Footer />
@@ -77,4 +77,4 @@ function ContactPage() {
   );
 }
 
-export default ContactPage;
+export default EducationPage;

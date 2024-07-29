@@ -14,6 +14,7 @@ import AboutPage from "./pages/AboutPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import SkillsPage from "./pages/SkillsPage.jsx";
 import WorkPage from "./pages/WorkPage.jsx";
+import EducationPage from "./pages/EducationPage.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,7 +24,8 @@ const router = createBrowserRouter(
       <Route path="contact" element={<ContactPage />} />
       <Route path="skills" element={<SkillsPage />} />
       <Route path="work" element={<WorkPage />} />
-      {/* <Route path='education' element={<Educat />} /> */}
+
+      <Route path='education' element={<EducationPage />} />
     </Route>
   )
 );
